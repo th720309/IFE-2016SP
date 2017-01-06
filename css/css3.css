@@ -1,0 +1,50 @@
+body{
+    padding: 20px;
+    background-color: #eee;
+    font-family: "微软雅黑";
+    font-size: 15px;
+}
+.main_wrapper{
+    margin: 0 auto;
+    padding: 20px;
+    background: #eee;
+    border: 1px solid #999;
+    overflow: auto;
+    min-width: 600px;
+}
+.left{
+    padding: 20px;
+    background: #fff;
+    float: left;
+    border: 1px solid #999;
+    width: 200px;
+}
+.all-logo{
+    float: left;
+}
+.left h2{
+    width: 180px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
+.right{
+    float: right;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #999;
+    width: 120px;
+}
+.right img{
+    background: #fff;
+    display: block;
+    margin: 20px;
+    border: 1px solid #999;
+}
+.middle{
+    padding: 20px;
+    margin-left: 21%;
+    margin-right: 15%;
+    background: #fff;
+    border: 1px solid #999;
+}
