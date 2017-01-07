@@ -1,0 +1,189 @@
+*{
+    margin:0;padding:0;
+}
+body{
+    font-family:'Microsoft YaHei';
+    background: #dedede;
+    display: block;
+}
+header{
+    position: relative;
+    height:60px;
+    background:#333;
+}
+header img{
+    position: relative;
+    float: left;
+    padding-left: 30px;
+    width: 110px;
+    height: 60px;
+}
+
+header ul{
+    position:absolute;top:0;right:10px;
+}
+header ul li {
+    text-align: center;
+    width:80px;
+    display:block;
+    float:left;
+    padding:20px 10px;
+}
+header ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:14px;
+}
+header ul li:hover{
+    border-bottom: 1px solid red;
+    background: #474747;
+    border-radius: 3px;
+}
+div.acticle , div.picture {
+    margin-top: 40px;
+    background-color: #FFF;
+    margin-left: 40px;
+    margin-right: 450px;
+    padding: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 2px #848484;
+}
+div.sideline{
+    background: #fff;
+    float: right;
+    width: 350px;
+    margin-right: 20px;
+    padding: 20px;
+    box-shadow: 2px 2px 2px #848484;
+}
+div.acticle h1,div.sideline h1{
+    padding:5px 0;
+}
+div.acticle h2,div.sideline h2{
+    padding:10px 0;
+    color:#808080;
+    font-size:14px;
+}
+div.acticle a{
+    color:blue;
+}
+div.acticle a:hover{
+    color:red;
+}
+.passage img{
+    width: 30%;
+    height: 30%;
+}
+div.acticle p span{
+    line-height:30px;
+    color:#808080;
+    font-size:12px;
+}
+.acticle p{
+    text-indent:2em;
+}
+.acticle img{
+    padding:15px 0;
+}
+.acticle ul li{
+    list-style-type:none;/*去掉列表前的点*/
+
+}
+div.picture span{
+    display:block;
+    font-size:12px;
+    text-align:center;
+    margin:5px;
+}
+.demop{
+    position: relative;
+    width: 120px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border: 1px solid #eee;
+    text-align: center;
+    display: inline-block;
+}
+.picture p{
+    text-align: center;
+    width:140px;
+    margin:15px;
+    border:1px solid #ccc;
+}
+.picture img{
+    display:block;
+    width: 100px;
+    height: 100px;
+    padding:5px;
+}
+.acticle ol{
+    margin: 10px 40px;
+}
+.acticle table{
+    width:100%;
+    border-collapse: collapse;/*设置表格的边框被合并为一个单一的边框*/
+}
+.acticle table tr th{
+    color:white;
+    background:#333;
+    text-align: center;
+}
+.acticle table tr td{
+    border:1px solid #ccc;
+    text-align: center;
+}
+.acticle table .lasttr{
+    background:#ccc;
+}
+.sideline h1{
+    height:40px;
+    line-height:40px;
+    padding-left:10px;
+    border-left:3px solid #ccc;
+}
+.sideline div{
+    font-size: 14px;
+    margin:15px 0;
+}
+.sideline div form{
+    margin: 0 auto;
+}
+.sideline div form label.tips{
+    float:left;           /*添加后个人描述四个字才和文本域上对齐*/
+    text-align:right;
+    width:35%;
+    padding-right:15px;
+}
+.sideline div form p{
+    margin-left:35%;
+    padding-left:15px;
+    font-size:12px;
+    color: #aaa;
+}
+.sideline div textarea{
+    width:50%;
+    height:100px;
+
+}
+.sideline .submitButton{
+    width:100%;
+    height:40px;
+    text-align: center;
+    border-radius: 10px;
+    background: #128fdc;
+    color: white;
+    font-size: 19px;
+    border:none;
+}
+.sideline .submitButton:hover {
+    background: #0063dc;
+}
+footer{
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    background: #333;
+    margin-top: 30px;
+}
