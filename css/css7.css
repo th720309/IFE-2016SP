@@ -1,0 +1,120 @@
+*{
+    padding:0; margin:0;
+}
+body {margin:0; padding:0;min-width: 1120px;}
+.container{
+    width: 100%;
+    padding:0; margin:0;
+    min-width: 1120px;
+    font-family: 'Microsoft YaHei';
+}
+.container div.header{
+    padding:0; margin:0;
+    width: 100%;
+    height: 60px;
+    min-width:1120px;
+}
+.left-hd{
+    position: absolute;
+    display: inline-block;
+    height: 60px;
+    left: 5%;
+    width: 200px;
+}
+.left-hd img{
+    width: 40px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+.left-hd p{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    top: 15px;
+    left: 95px;
+    font-size: 20px;
+    text-align: center;
+}
+nav{
+    width: 500px;
+    height: 50px;
+    margin: 0 20% 0 40%;
+    position: relative;
+    display: inline-block;
+}
+.right-hd {
+    margin-top: 0px;
+    position: relative;
+    float: right;
+    right: 5%;
+    width: 100px;
+    top: -50px;
+    display: inline-block;
+}
+.right-hd img{
+    margin-right: 180px;
+    margin-top: 20px;
+
+}
+.right-hd p{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    top: 18px;
+    font-size: 15px;
+    color: #F04C57;
+    text-align: center;
+}
+
+nav ul{
+    position:absolute;
+    display:block;
+    top:0;
+}
+nav ul li{
+    text-align: center;
+    width:80px;
+    display:inline;
+    float:left;
+    padding:20px 10px;
+}
+nav ul li:hover{
+    border-bottom: 3px solid red;
+}
+.section-1 {
+    width: 100%;
+    height: 650px;
+    margin-top: 2px;
+    background-image: url(../image/image7/pic01.jpg);
+    background-size: 100% auto;
+}
+.section-1 .p {
+    position: absolute;
+    top: 270px;
+    left: 120px;
+}
+.section-1 .p p.one {
+    font-size: 65px;
+    color: #eee;
+    font-weight: 200;
+    width: 500px;
+    margin-bottom: 20px;
+}
+.section-1 .p p.second {
+    font-size: 25px;
+    color: #eee;
+    width: 500px;
+    margin-bottom: 60px;
+}
+.section-1 .p span {
+    background: #ab3a3a;
+    width: 250px;
+    position: absolute;
+    font-size: 30px;
+    line-height: 60px;
+    text-align: center;
+    height: 60px;
+    color: #eee;
+}
+
