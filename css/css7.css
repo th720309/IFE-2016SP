@@ -117,4 +117,339 @@ nav ul li:hover{
     height: 60px;
     color: #eee;
 }
+.section-2{
+    width:100%;
+    height: 240px;
+    top: 0;
+    font-size: 0;
+}
+.section-2 .cell{
+    width: 25%;
+    height: 240px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+.section-2 .cell .img{
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    line-height: 130px;
+}
+.section-2 .cell .img img{
+    position: relative;
+    top: 40px;
+}
+.section-2 .cell .p{
+    position: relative;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    box-sizing: border-box;
+    color: #534141;
+    text-align: center;
+    border-right: 2px solid #534141;
+}
+.section-2 .cell .p :hover{
+    color: red;
+}
+.section-3{
+    width: 100%;
+    height: 400px;
+    background: #eee;
+}
+.section-3 .img{
+    text-align: center;
+    height: 200px;
+    line-height: 200px;
+}
+.section-3 .img img{
+    position: relative;
+    top: 90px;
+}
+.section-3 .p{
+    margin-top: 60px;
+    text-align: center;
+    height: 100px;
+    font-size: 40px;
+    line-height: 100px;
+}
+.section-4{
+    background: url("../image/image7/pic02.jpg") no-repeat;
+    background-size: 100%;
+    width: 100%;
+    text-align: center;
+    height: 300px;
+}
+.section-4 .p{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+.section-4 .p .p-1{
+    position: relative;
+    top: 50px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+.section-4 .p span{
+    margin-top: 65px;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    border-top: 2px solid #fff;
+    width: 30px;
+    transition: width 0.4s ease-in-out;
+}
+.section-4 .p span:hover{
+    width: 300px;
+}
+.section-4 .p .p-2{
+    margin-top: 30px;
+    font-size: 10px;
+    color: #fff;
+}
+.section-4 input[type="radio"] {
+    width: 240px;
+    height: 36px;
+    margin: 0 10px;
+    cursor: pointer;
+    opacity: 0;
+    position: relative;
+    top: 47px;
+    z-index: 10;
+}
+.section-4 .options {
+    height: 36px;
+}
+.section-4 .options .select {
+    width: 240px;
+    height: 36px;
+    margin: 0 10px;
+    font-size: 14px;
+    line-height: 36px;
+    text-align: left;
+    color: #B3B3B3;
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid #C6B3AF;
+    background: url(../image/image7/icon-7.png) no-repeat 210px 8px,#fff;
+    background-size: 20px;
+}
+.section-4 .options .select .option {
+    width: 240px;
+    background-color: #E3E3E5;
+    position: absolute;
+    z-index: 10;
+    display: none;
+    left: -2px;
+    top: 34px;
+}
+.section-4 input[type="submit"] {
+    width: 240px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 16px;
+    margin: 0 10px;
+    border: 0;
+    outline: 0;
+    background-color: #BE4F48;
+    color: #fff;
+    letter-spacing: 30px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    top: 36px;
+    -webkit-transition: background-color 0.4s ease-in-out;
+    -moz-transition: background-color 0.4s ease-in-out;
+    transition: background-color 0.4s ease-in-out;
+}
+.section-4 .options .select span {
+    margin-left: 10px;
+}
+.section-5{
+    font-size: 0;
+    width: 100%;
+    height: 500px;
+    background: #eee;
+    text-align: center;
+}
+.section-5 .cell{
+    position: relative;
+    top: 0;
+    width: 25%;
+    display: inline-block;
+}
+.section-5 .cell .p{
+    text-align: center;
+    height: 100px;
+}
+.section-5 .cell .p .one{
+    position: relative;
+    top: 10px;
+    font-size: 14px;
+    color: #44403F;
+}
+.section-5 .cell .p .two{
+    position: relative;
+    top: 15px;
+    font-size: 12px;
+    color: #B3AFAC;
+}
+.section-5 .cell:nth-child(2) .p .one {
+    font-size: 24px;
+    text-indent: 30px;
+    padding-top: 50px;
+    letter-spacing: 30px;
+}
+.section-5 .cell:nth-child(2) .img {
+    position: relative;
+    top: 30px;
+}
+.section-6{
+    width: 100%;
+    height: 560px;
+}
+.section-6 .left-6{
+    float: left;
+    color: #fff;
+    text-align: center;
+    width: 68%;
+    height: 560px;
+    background: url("../image/image7/pic07.jpg") no-repeat;
+    background-size: cover;
+}
+.section-6 .left-6 .one{
+    position: relative;
+    font-size: 50px;
+    top: 100px;
+}
+.section-6 .left-6 .two{
+    margin-top: 100px;
+    font-size: 150px;
+}
+.section-6 .left-6 .three{
+    font-size: 30px;
+    margin-top: 30px;
+}
+.section-6 .left-6 .four{
+    font-size: 30px;
+    margin-top: 50px;
+}
+.section-6 .right-6{
+    height: 560px;
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    background: #fff;
+}
+.section-6 .right-6 .title{
+    position: relative;
+    top: 100px;
+    font-size: 20px;
+}
+.section-6 .right-6 .word {
+    line-height: 25px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 200px;
+}
+.section-6 .right-6 span{
+    display: block;
+    text-align: center;
+    width: 150px;
+    margin: 0 auto;
+    height: 40px;
+    line-height: 40px;
+    border: 2px solid #E84E4C;
+    color: #E84E4C;
+}
+.section-6 .right-6 span:hover{
+    background-color: #E84E4C;
+    color: #fff;
+}
+.section-7{
+    width: 100%;
+    height: 520px;
+}
+.section-7 .left{
+    font-size: 20px;
+    float: left;
+    height: 520px;
+    background-color: #E84E4C;
+    color: #fff;
+    width: 33%;
+    text-align: center;
+}
+.section-7 .right{
+    float: right;
+    height: 520px;
+    width: 32%;
+    background: url("../image/image7/pic08.jpg") no-repeat;
+    background-size: cover;
+}
+.section-7 .mid{
+    font-size: 20px;
+    color: black;
+    height: 520px;
+    background-color: #fff;
+    text-align: center;
+}
+.section-7 .left p , .section-7 .mid p{
+    position: relative;
+    top: 200px;
+    line-height: 40px;
+}
+.section-7 .left span.hr {
+    display: block;
+    text-align: center;
+    margin: 220px auto 60px;
+    border-top: 2px solid #fff;
+    width: 40px;
+    transition: width 0.4s ease-in-out;
+}
+.section-7 .mid span.hr{
+    display: block;
+    margin: 220px auto 60px;
+    text-align: center;
+    border-top: 2px solid #eee;
+    width: 40px;
+    transition: width 0.4s ease-in-out;
+}
+.section-7 .mid span.hr:hover{
+    width: 300px;
+}
+.section-7 .left span.hr:hover{
+    width: 300px;
+}
+.section-7 .left span.word{
+    border: 2px solid #fff;
+    width: 150px;
+    margin: 0 auto;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+}
+.section-7 .mid span.word{
+    border: 2px solid #E84E4C;
+    width: 150px;
+    margin: 0 auto;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+}
+.section-7 .mid span.word:hover{
+    background-color: #E84E4C;
+    color: #fff;
+}
+.section-7 .left span.word:hover{
+    background-color: #fff;
+    color: #E84E4C;
+}
 
