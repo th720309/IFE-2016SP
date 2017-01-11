@@ -452,4 +452,171 @@ nav ul li:hover{
     background-color: #fff;
     color: #E84E4C;
 }
-
+.section-8{
+    width: 100%;
+    height: 800px;
+    text-align: center;
+}
+.section-8 .title {
+    width: 100%;
+    height: 300px;
+    top: 80px;
+}
+.section-8 .title .mess{
+    position: relative;
+    width: 100%;
+    top: 100px;
+}
+.section-8 .title .mess p:nth-of-type(1){
+    font-size: 18px;
+}
+.section-8 .title .mess p:nth-of-type(2){
+    font-size: 14px;
+    color: #B3AFAC;
+}
+.section-8 .title span{
+    border-top: 2px solid red;
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    margin: 20px;
+}
+.section-8 .left-8{
+    width: 30%;
+    display: inline-block;
+    height: 400px;
+    text-align: left;
+}
+.section-8 .left-8 .mess{
+    margin-top: 50px;
+    width: 350px;
+    height: 100px;
+}
+.section-8 .left-8 .mess p:nth-of-type(1){
+    margin: 20px;
+    font-size: 16px;
+    color: #6C5C5C;
+}
+.section-8 .left-8 .mess p:nth-of-type(2){
+    font-size: 14px;
+    color: #B3AFAC;
+}
+.section-8 .left-8 .mess span{
+    font-size: 14px;
+    color: #B3AFAC;
+    float: right;
+    cursor: pointer;
+}
+.section-8 .right-8{
+    top: 50px;
+    display: inline-block;
+    width: 50%;
+    position: relative;
+}
+.section-8 .right-8 input[type="text"]{
+    height: 40px;
+    width: 300px;
+    font-size: 14px;
+    color: #4E3A4F;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    background-color: #E3E3E3;
+}
+.section-8 .right-8 textarea{
+    height: 200px;
+    width: 620px;
+    font-size: 14px;
+    color: #4E3A4F;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    background-color: #E3E3E3;
+}
+.section-8 .right-8 input[type="submit"]{
+    height: 40px;
+    width: 620px;
+    text-align: center;
+    font-size: 14px;
+    color: #4E3A4F;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 0;
+    outline: 0;
+    background-color: #E3E3E3;
+}
+.section-9{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    background-color: #33363F;
+}
+.section-9 .mess{
+    margin-top: 100px;
+    width: 100%;
+    height: 150px;
+    display: inline-block;
+}
+.section-9 .mess p:nth-of-type(1){
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 20px;
+}
+.section-9 .mess p:nth-of-type(2){
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.section-9 .mid input[type="text"]{
+    width: 500px;
+    height: 40px;
+    font-size: 15px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    color: #75757F;
+}
+.section-9 .mid input[type='submit']{
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 5px;
+    border: 0;
+    box-sizing: border-box;
+    background-color: #75757F;
+}
+.section-9 .icon {
+    margin-top: 30px;
+    width: 100%;
+    height: 70px;
+    color: #fff;
+}
+.section-9 .icon i{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    padding: 10px;
+    line-height: 50px;
+    vertical-align: middle;
+    margin: 0;
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color: #30303A;
+    line-height: 60px;
+}
+footer p:nth-of-type(1){
+    float: left;
+    width:20%;
+}
+footer p:nth-of-type(2){
+    float: right;
+    width: 20%;
+}
